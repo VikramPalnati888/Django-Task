@@ -57,10 +57,10 @@ def sheet(request):
 		# folder_id = '1YHJvfup29RIQ5lbttGu8BjBwQBOoVCew'
 		# mime_type = ['image/jpeg','image/png','application/vnd.ms-excel','application/pdf','application/msword']
 
-		file_metadata = {
-				'name':file_url,
-				'parents':[folder_id],
-		}
+# 		file_metadata = {
+# 				'name':file_url,
+# 				'parents':[folder_id],
+# 		}
 
 		# media =  MediaFileUpload(file_url,mimetype=mime_type)
 		# file = service.files().create(body=file_metadata,
